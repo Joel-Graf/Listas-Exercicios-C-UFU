@@ -2,10 +2,12 @@
 
 int main(int argc, char const *argv[]) {
   
-  printf("Digite um número inteiro: ");
   int num;
+  
+  printf("Insert an Integer: ");
   scanf("%d", &num);
-  printf("%d", num);
+  
+  printf("Your number: %d", num);
 
   return 0;
 }

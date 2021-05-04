@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]) {
   printf("Insert an Float: ");
   scanf("%f", &num);
   
-  printf("Your number: %f", num);
+  printf("%.2f^2 = %.2f", num, num*num);
 
   return 0;
 }

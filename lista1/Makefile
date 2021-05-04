@@ -1,6 +1,6 @@
 # -*- MakeFile -*-
 
-CC = gcc
+CC = g++
 CFLAGS := -Wall -Werror
 SRCS = $(wildcard *.c)
 PROGS = $(patsubst %.c,%,$(SRCS))
