@@ -7,7 +7,8 @@ int main(int argc, char const *argv[]) {
   printf("Insert the employee salary: ");
   scanf("%f", &salary);
 
-  printf("The salary of the employee with %%%.2f raise is %.2f", raise*100, salary+(salary*raise));
+  printf("The salary of the employee with %%%.2f raise is %.2f", raise * 100,
+         salary + (salary * raise));
 
   return 0;
 }

@@ -1,6 +1,6 @@
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 typedef struct {
   int x;
@@ -8,10 +8,9 @@ typedef struct {
 } Point;
 
 int main(int argc, char const *argv[]) {
-
   Point point;
   float result;
-  
+
   printf("Insert point(x): ");
   scanf("%d", &point.x);
   printf("Insert point(y): ");

@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-
   float bet1, bet2, bet3, betTotal, prize;
-  
+
   printf("Insert the first bet: ");
   scanf("%f", &bet1);
   printf("Insert the first bet: ");

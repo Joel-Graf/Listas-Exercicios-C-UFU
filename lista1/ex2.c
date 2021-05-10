@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-  
-  float num;
-  
+  float nFloat;
+
   printf("Insert an Float: ");
-  scanf("%f", &num);
-  
-  printf("Your number: %f", num);
+  scanf("%f", &nFloat);
+
+  printf("Your Float: %f", nFloat);
 
   return 0;
 }

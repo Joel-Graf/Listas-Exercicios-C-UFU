@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
- 
+
 int main(void) {
-  //Time stuff
+  // Time stuff
   time_t now;
   time(&now);
   struct tm *local = localtime(&now);

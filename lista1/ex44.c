@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-
   float stepHeight, targetHeight;
   int numberOfSteps;
 

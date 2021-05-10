@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-  
-  int num;
-  
+  int integer;
+
   printf("Insert an Integer: ");
-  scanf("%d", &num);
-  
-  printf("Your number: %d", num);
+  scanf("%d", &integer);
+
+  printf("Your Integer: %d", integer);
 
   return 0;
 }
